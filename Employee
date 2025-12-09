@@ -1,0 +1,17 @@
+package javaproject;
+
+public class Employee {
+
+    // data or fields
+    int id;
+    String name;
+    double salary;
+
+    public void getSalary() {
+        System.out.println("The salary is : " + salary);
+    }
+
+    public void getName() {
+        System.out.println("The name is : " + name);
+    }
+}
