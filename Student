@@ -1,0 +1,25 @@
+package Javaprogram;
+
+public class Student {
+	
+	int id;
+	String name;
+	double salary;
+	
+	public Student(int id, String name, double salary) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+	
+	public void getName() {
+		System.out.println("The name is "+name);
+	}
+	
+	public void getSalary() {
+		System.out.println("The name is "+name);
+	}
+}
+
+	
